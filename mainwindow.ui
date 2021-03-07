@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1360</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Laboratorium grafiki i multimediów</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>50</y>
+      <width>471</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Sterowanie</string>
+    </property>
+    <widget class="QPushButton" name="exitButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>400</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wyjście</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>400</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Czyść</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>16</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>16</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>160</y>
+       <width>16</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>16</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>normal mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mnozenie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>dark mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>light mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>screenMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>overlayMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>diffMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AdditiveMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SubtractiveMode</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>100</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_2">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>130</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>160</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_4">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>190</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>220</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>130</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>normal mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mnozenie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>dark mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>light mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>screenMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>overlayMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>diffMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AdditiveMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SubtractiveMode</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>normal mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mnozenie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>dark mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>light mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>screenMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>overlayMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>diffMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AdditiveMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SubtractiveMode</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>190</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>normal mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mnozenie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>dark mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>light mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>screenMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>overlayMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>diffMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AdditiveMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SubtractiveMode</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>normal mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>mnozenie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>dark mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>light mode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>screenMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>overlayMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>diffMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AdditiveMode</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SubtractiveMode</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>290</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Zapisz obraz</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_3">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>100</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wczytaj Obraz 0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_4">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>130</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wczytaj Obraz 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_5">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>160</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wczytaj Obraz 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_6">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>190</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wczytaj Obraz 3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cleanButton_7">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>220</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wczytaj Obraz 4</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1360</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
